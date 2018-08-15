@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<IDataXMLCoder version="1.0">
+  <record javaclass="com.wm.data.ISMemDataImpl">
+    <value name="connectionAliasName">PE_NONTRANSACTIONAL_ALIAS</value>
+    <value name="destinationName">StagesAndMilestones_LazyProcess_SUBQUEUE</value>
+    <value name="destinationType">QUEUE</value>
+    <record name="JMSMessage" javaclass="com.wm.data.ISMemDataImpl">
+      <record name="header" javaclass="com.wm.data.ISMemDataImpl">
+        <value name="deliveryMode"></value>
+        <value name="JMSType"></value>
+      </record>
+      <record name="properties" javaclass="com.wm.data.ISMemDataImpl">
+        <value name="JMS_WMClusterNodes"></value>
+        <value name="activation"></value>
+        <value name="uuid"></value>
+        <value name="documentType">bpmTestDrive.docs:SignedContract</value>
+      </record>
+      <record name="body" javaclass="com.wm.data.ISMemDataImpl">
+        <record name="data" javaclass="com.wm.data.ISMemDataImpl">
+          <value name="Name">Hugo</value>
+        </record>
+      </record>
+    </record>
+  </record>
+</IDataXMLCoder>
